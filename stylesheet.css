@@ -68,8 +68,7 @@ body {
     width: 1920px;
     height: 218px;
     background-color: white;
-    border-style: dashed;
-    border-color: yellow;
+    
    
 }
 
@@ -90,6 +89,7 @@ body {
     background-color: white;
     justify-content: center;
     align-items: center;
+    
     
 }
 
@@ -139,6 +139,10 @@ body {
     
 }
 
+.placeholder-text {
+    color: white
+}
+
 .signup-background {
     display: flex;
     background-color: #3882f8;
@@ -165,8 +169,7 @@ body {
     display: flex;
     width: 1920px;
     flex-direction: column;
-    border-style: dashed;
-    border-color: yellow;
+    
     height: 216px;
     align-items: center;
 }
@@ -296,9 +299,20 @@ body {
     align-items: center;
     justify-content: center;
     width: 90px;
-    height: 30px;
+    height: 27px;
     margin-left: 115px;
     margin-top: 30px;
     border-radius: 10px;
-    
+    color: white
+}
+
+.footer {
+    display: flex;
+    width: 1920px;
+    height: 73px;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
 }
